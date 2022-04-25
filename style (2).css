@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: aqua;
+}
+#home{
+    background: linear-gradient(#e8e179 0%,#87c7c9 50%, #8f24d5 100%);
+    font-family: 'Anek Tamil', sans-serif;
+}
+img{
+    width: 400px;
+    height: 350px;
+    border-radius: 100px;
+}
+#menu{
+    position:fixed;
+    list-style: none;
+    top: 10px;
+    right:30px;
+    cursor: pointer;
+}
+.items{
+    float:left;
+    padding:10px;
+    font-size:20px;
+    font-family: 'Dancing Script', cursive;
+}
+.items:hover{
+    font-size: 25px;
+    color:beige;
+    background-color: #8f24d5;
+}
